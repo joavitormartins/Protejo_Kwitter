@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" >
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="Kwitter.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwiter</title>
+
+
+
+</head>
+<body>
+    <center>
+
+        <h1 class="header">
+            Kwitter <sup>
+                <img src="m2.png">
+            </sup>
+        </h1>
+
+
+
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+            <img src="logo.png" class="logo">
+            <h3>veja o que esta acontecendo no mundo(dentro da sua sala)</h3>
+            <h4>junte_se ao Kwitter hoje</h4>
+            <div class="form-group">
+                <label>Nome de Usuario:</label>
+                <input type="text" id="userName" class="form-control" placeholder="Nome de Usuario">
+            </div>
+            <button id="loginButton" class="btn btn_primary" onclick="addUser()">Log in</button>
+            <br><br>
+        </div>
+    </center>
+    <script src="validaçao.js"></script>
+    <script>  const app = initializeApp(firebaseConfig) </script>
+</body>
+</html>
