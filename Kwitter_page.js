@@ -63,5 +63,5 @@ const firebaseConfig = {
     function logout() {
     localStorage.removeItem("userName");
     localStorage.removeItem("room_name");
-    window.location.replace("./index.html");
+    window.location.replace("./Kwitter_room.html");
     }
